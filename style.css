@@ -1,0 +1,60 @@
+/* body: styles the whole page */
+body {
+  background-color: #F2FFB3;
+  font-family: Arial, sans-serif;
+  color: #000000;
+  margin: 40px;
+}
+
+/* h1: styles the big name heading */
+h1 {
+  color: #008015;
+  font-size: 36px;
+}
+
+/* h2 and h3: smaller headings */
+h2 {
+  color: #2A0080;
+  font-size: 26px;
+}
+h3 { 
+  color: #800055;
+  font-size: 20px;
+}
+
+/* p: styles all paragraph text */
+p { 
+  font-size: 16px; 
+  line-height: 1.6; 
+}
+
+/* a: styles all links */
+a { 
+  color: #FF0000; 
+}
+
+/* img: stops images overflowing the page */
+img { 
+  max-width: 400px; 
+  border-radius: 4px; 
+}
+
+/* .container: the dot means this targets a class, not a tag */
+.container {
+  max-width: 800px; /* never wider than 800px */
+  margin: 0 auto; /* 0 means top/bottom, auto means left/right = centred */
+  background-color: white;
+  padding: 30px; /* space inside the box */
+  border-radius: 10px; /* rounded corners */
+}
+
+button {
+  background-color: #2980b9;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; /* hand cursor on hover */
+  margin-top: 20px;
+}
+
